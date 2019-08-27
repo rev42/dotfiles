@@ -1,0 +1,20 @@
+{
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "editor.minimap.enabled": false,
+  "window.zoomLevel": 1,
+  "git.confirmSync": false,
+  "editor.fontFamily": "'Fire Code','Ubuntu Mono','Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "terminal.integrated.fontFamily": "'SourceCodePro+Powerline+Awesome Regular'",
+  "terminal.integrated.fontWeightBold": "normal",
+  "editor.fontLigatures": true,
+  "php.validate.executablePath": "/usr/bin/php",
+  "workbench.statusBar.feedback.visible": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.rulers": [
+      140
+  ],
+  "eslint.alwaysShowStatus": true,
+  "eslint.autoFixOnSave": true,
+  "terminal.integrated.fontSize": 12
+}

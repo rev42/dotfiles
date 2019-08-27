@@ -1,0 +1,16 @@
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 0DF731E45CE24F27EEEB1450EFDC8610341D9410
+echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
+sudo apt-get update
+sudo apt-get install -y redshift libappstream3 openvpn network-manager-openvpn easy-rsa network-manager-openvpn-gnome network-manager-pptp network-manager-vpnc libnss3 git terminator vim vlc p7zip git gparted curl terminator filezilla htop zlib1g-dev nfs-kernel-server spotify-client pinta
+sudo add-apt-repository ppa:ondrej/php
+sudo apt-get update
+sudo apt-get install php7.2-cli
+curl -sS https://getcomposer.org/installer | php
+sudo mv composer.phar /usr/local/bin/composer
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+wget https://dev.mysql.com/get/Downloads/MySQLGUITools/mysql-workbench-community-6.3.10-1ubuntu16.04-amd64.deb
+dpkg -i google-chrome-stable_current_amd64.deb
+dpkg -i mysql-workbench-community-6.3.10-1ubuntu16.04-amd64.deb
+
+sudo curl -L https://github.com/docker/compose/releases/download/1.18.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
